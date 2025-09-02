@@ -41,6 +41,8 @@ cd nome-do-repositorio
 
 2. Abra o projeto no VS Code ou Jupyter Notebook.
 
+3. Execute os notebooks na ordem desejada para reproduzir as análises e resultados.
+
 ## 🧰 Bibliotecas Utilizadas
 
 - Manipulação de dados: pandas, numpy
