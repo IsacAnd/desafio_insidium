@@ -43,6 +43,24 @@ cd desafio_insidium
 
 3. Execute os notebooks na ordem desejada para reproduzir as análises e resultados.
 
+## (Opcional) Execução através de um ambiente virtual
+
+Não é obrigatório, mas você pode criar um ambiente isolado para evitar conflitos de pacotes:
+
+```bash
+# Criar ambiente virtual
+python -m venv .venv
+
+# Ativar no Windows
+.\.venv\Scripts\activate
+
+# Ativar no Linux/Mac
+source .venv/bin/activate
+
+# Instalar pacotes dentro do ambiente
+pip install -r requirements.txt
+```
+
 ## 🧰 Bibliotecas Utilizadas
 
 - Manipulação de dados: pandas, numpy
