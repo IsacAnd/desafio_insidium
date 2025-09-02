@@ -35,7 +35,7 @@ pip install -r requirements.txt
 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/IsacAnd/desafio_insidium
 cd nome-do-repositorio
 ```
 
