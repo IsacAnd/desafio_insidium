@@ -34,7 +34,7 @@ cd desafio_insidium
 
 ```bash
 # Criar ambiente virtual
-python -3.11 -m venv .venv
+py -3.11 -m venv .venv
 
 # Ativar no Windows
 .\.venv\Scripts\activate
