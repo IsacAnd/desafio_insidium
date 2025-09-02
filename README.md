@@ -22,30 +22,15 @@ Este projeto realiza uma análise exploratória de dados (EDA) e construção de
 
 ---
 
-## 📦 Instalação dos Pacotes
+## 🚀 Execução através de um ambiente virtual
 
-Antes de rodar o projeto, instale os pacotes necessários:
-
-```bash
-pip install -r requirements.txt
-```
-
-## 💻 Como Executar
-
-1. Clone o repositório
+Siga os seguintes passos para clonar o repositório e criar e ativar o ambiente virtual:
 
 ```bash
+# Clonar o repositório
 git clone https://github.com/IsacAnd/desafio_insidium
 cd desafio_insidium
 ```
-
-2. Abra o projeto no VS Code ou Jupyter Notebook.
-
-3. Execute os notebooks na ordem desejada para reproduzir as análises e resultados.
-
-## (Opcional) Execução através de um ambiente virtual
-
-Não é obrigatório, mas você pode criar um ambiente isolado para evitar conflitos de pacotes:
 
 ```bash
 # Criar ambiente virtual
@@ -56,21 +41,39 @@ python -m venv .venv
 
 # Ativar no Linux/Mac
 source .venv/bin/activate
+```
 
-# Instalar pacotes dentro do ambiente
+## 📦 Instalação dos Pacotes
+
+```bash
 pip install -r requirements.txt
 ```
 
-## 🧰 Bibliotecas Utilizadas
+## 💻 Como Executar
 
-- Manipulação de dados: pandas, numpy
+1. Opção 1: Jupyter Notebook
 
-- Visualização: matplotlib, seaborn
+Com o ambiente virtual ativado, instale e rode o Jupyter caso necessário:
 
-- Estatística: scipy, statsmodels
+```bash
+pip install notebook
+jupyter notebook
+```
 
-- Machine Learning: scikit-learn (Random Forest, Naive Bayes, pré-processamento, métricas)
+Navegue até a pasta do projeto e abra o notebook .ipynb.
 
-- Serialização de modelos: joblib
+2. Opção 2 – VS Code
 
-- Outros: collections.Counter
+Abra o projeto no VS Code:
+
+```bash
+code .
+```
+
+No canto superior direito, selecione o kernel correspondente ao seu ambiente virtual .venv e execute as células.
+
+
+
+
+
+
