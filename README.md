@@ -17,7 +17,7 @@ Este projeto realiza uma análise exploratória de dados (EDA) e construção de
 
 - Python 3.11 (ou superior)
 - Jupyter Notebook / JupyterLab
-- VS Code (ou Jupyter Notebook / JupyterLab)
+- VS Code 
 - Extensões **Python** e **Jupyter** no VS Code
 
 ---
