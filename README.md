@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ```bash
 git clone https://github.com/IsacAnd/desafio_insidium
-cd nome-do-repositorio
+cd desafio_insidium
 ```
 
 2. Abra o projeto no VS Code ou Jupyter Notebook.
